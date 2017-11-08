@@ -141,31 +141,37 @@ def exit_message(message):
 
 @bot.message_handler(commands=['music'])
 def music_message(message):
+        core.Reset()
         core.bool_music = True
         bot.send_message(message.from_user.id, config.key, reply_markup = core.exit_markup)
 
 @bot.message_handler(commands=['photo'])
 def photo_message(message):
+        core.Reset()
         core.bool_photo = True
         bot.send_message(message.from_user.id, config.key_pix, reply_markup = core.exit_markup)
 
 @bot.message_handler(commands=['art'])
 def art_message(message):
+        core.Reset()
         core.bool_art = True
         bot.send_message(message.from_user.id, config.key_pix, reply_markup = core.exit_markup)
 
 @bot.message_handler(commands=['vector'])
 def vector_message(message):
+        core.Reset()
         core.bool_vector = True
         bot.send_message(message.from_user.id, config.key_pix, reply_markup = core.exit_markup)
 
 @bot.message_handler(commands=['icon'])
 def ico_message(message):
+        core.Reset()
         core.bool_ico = True
         bot.send_message(message.from_user.id, config.key, reply_markup = core.exit_markup)
 
 @bot.message_handler(commands=['gif'])
 def gif_message(message):
+        core.Reset()
         core.bool_gif = True
         core.RandGIF(message, bot)
         bot.send_message(message.from_user.id, config.again, reply_markup = core.random_markup)

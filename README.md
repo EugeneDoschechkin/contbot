@@ -1,4 +1,4 @@
-Content Assistant v1.0.1 (22.10.2017)
+Content Assistant v1.0.2 (22.10.2017)
 ===================
 
 **Content Assistant** (**@freecont_bot**) is a Telegram bot that helps people to search for free content such as photos, arts, vectors, music and etc. for their projects.
