@@ -15,3 +15,5 @@ Content Assistant v1.0.2 (08.11.2017)
 The bot is written on ***Python 3.6.2*** using OOP.
 
 If you have any questions feel free to write me at **epsidani45@gmail.com** or **@pierce_a** at Telegram.
+
+COPYRIGHT BY Eugene Doschechkin and Irina Ivanova
